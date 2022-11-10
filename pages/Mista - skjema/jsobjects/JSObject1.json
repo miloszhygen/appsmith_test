@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Mista - skjema",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\trandomWorkID: () => {\n    return Math.ceil(Math.random() * (9999 -  + 1)) + 1;\n}\n\t}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Mista - skjema_JSObject1",
+  "deleted": false,
+  "gitSyncId": "636bcc2c8f12af63a43d7c4d_636cc7d00c3174227f41198c"
+}
