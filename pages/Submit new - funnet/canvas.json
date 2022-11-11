@@ -64,92 +64,6 @@
                   "dynamicBindingPathList": [],
                   "children": [
                     {
-                      "isCompact": false,
-                      "boxShadow": "none",
-                      "widgetName": "MenuButton1Copy",
-                      "dynamicPropertyPathList": [],
-                      "displayName": "Menu Button",
-                      "iconSVG": "/static/media/icon.0341d17d.svg",
-                      "topRow": 1,
-                      "bottomRow": 8,
-                      "parentRowSpace": 10,
-                      "type": "MENU_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 12.01953125,
-                      "dynamicTriggerPathList": [
-                        {
-                          "key": "menuItems.menuItem1.onClick"
-                        },
-                        {
-                          "key": "menuItems.menuItem2.onClick"
-                        },
-                        {
-                          "key": "menuItems.menuItem3.onClick"
-                        },
-                        {
-                          "key": "menuItems.menuItemspekwh04j3.onClick"
-                        }
-                      ],
-                      "leftColumn": 51,
-                      "dynamicBindingPathList": [],
-                      "isDisabled": false,
-                      "key": "kbnk4w7evq",
-                      "labelTextSize": "0.875rem",
-                      "rightColumn": 62,
-                      "iconName": "menu",
-                      "menuVariant": "TERTIARY",
-                      "widgetId": "nvgr2pa43m",
-                      "menuItems": {
-                        "menuItem1": {
-                          "label": "Home",
-                          "id": "menuItem1",
-                          "widgetId": "",
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "index": 0,
-                          "onClick": "null"
-                        },
-                        "menuItem2": {
-                          "label": "My orders",
-                          "id": "menuItem2",
-                          "widgetId": "",
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "index": 1,
-                          "onClick": "null"
-                        },
-                        "menuItem3": {
-                          "label": "Submit new order",
-                          "id": "menuItem3",
-                          "widgetId": "",
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "index": 2,
-                          "onClick": "null"
-                        },
-                        "menuItemspekwh04j3": {
-                          "id": "menuItemspekwh04j3",
-                          "index": 3,
-                          "label": "Admin",
-                          "widgetId": "m6t7bzqwnl",
-                          "isDisabled": false,
-                          "isVisible": true,
-                          "onClick": "null"
-                        }
-                      },
-                      "isVisible": true,
-                      "label": "",
-                      "version": 1,
-                      "parentId": "234euk304v",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "0.900rem",
-                      "menuColor": "#2E3D49",
-                      "iconAlign": "left",
-                      "placement": "CENTER"
-                    },
-                    {
                       "boxShadow": "none",
                       "widgetName": "Image1",
                       "displayName": "Image",
@@ -163,13 +77,13 @@
                       "parentColumnSpace": 17.9375,
                       "dynamicTriggerPathList": [],
                       "imageShape": "RECTANGLE",
-                      "leftColumn": 2,
+                      "leftColumn": 19,
                       "dynamicBindingPathList": [],
                       "defaultImage": "https://assets.appsmith.com/widgets/default.png",
                       "key": "axu4meuvm8",
                       "image": "https://res.cloudinary.com/dfczkfjlp/image/upload/v1668078275/fant_vcg5dx.png\n",
                       "isDeprecated": false,
-                      "rightColumn": 29,
+                      "rightColumn": 46,
                       "objectFit": "contain",
                       "widgetId": "w9an7ml2js",
                       "isVisible": true,
@@ -366,8 +280,8 @@
                       "dynamicPropertyPathList": [],
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
-                      "topRow": 6,
-                      "bottomRow": 10,
+                      "topRow": 8,
+                      "bottomRow": 12,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -687,8 +601,8 @@
                       "dynamicPropertyPathList": [],
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
-                      "topRow": 48,
-                      "bottomRow": 52,
+                      "topRow": 49,
+                      "bottomRow": 53,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -932,8 +846,8 @@
                       "displayName": "Select",
                       "iconSVG": "/static/media/icon.bd99caba.svg",
                       "labelText": "",
-                      "topRow": 52,
-                      "bottomRow": 56,
+                      "topRow": 53,
+                      "bottomRow": 57,
                       "parentRowSpace": 10,
                       "type": "SELECT_WIDGET",
                       "serverSideFiltering": false,
@@ -1018,8 +932,8 @@
                         "photo",
                         "video recorder"
                       ],
-                      "topRow": 20,
-                      "bottomRow": 48,
+                      "topRow": 21,
+                      "bottomRow": 49,
                       "onImageSave": "{{JSObject1.upload_image()}}",
                       "parentRowSpace": 10,
                       "type": "CAMERA_WIDGET",
@@ -1059,8 +973,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 16,
-                      "bottomRow": 20,
+                      "topRow": 17,
+                      "bottomRow": 21,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -1110,8 +1024,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 10,
-                      "bottomRow": 15,
+                      "topRow": 12,
+                      "bottomRow": 17,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -1413,7 +1327,7 @@
                         "label"
                       ],
                       "topRow": 1,
-                      "bottomRow": 5,
+                      "bottomRow": 8,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,

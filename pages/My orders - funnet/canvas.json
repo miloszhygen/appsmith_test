@@ -132,7 +132,7 @@
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 390,
+                  "bottomRow": 400,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -222,92 +222,6 @@
                       "enableDownload": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "enableRotation": false
-                    },
-                    {
-                      "isCompact": false,
-                      "boxShadow": "none",
-                      "widgetName": "MenuButton1",
-                      "dynamicPropertyPathList": [],
-                      "displayName": "Menu Button",
-                      "iconSVG": "/static/media/icon.0341d17d.svg",
-                      "topRow": 2,
-                      "bottomRow": 8,
-                      "parentRowSpace": 10,
-                      "type": "MENU_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 12.01953125,
-                      "dynamicTriggerPathList": [
-                        {
-                          "key": "menuItems.menuItem1.onClick"
-                        },
-                        {
-                          "key": "menuItems.menuItem2.onClick"
-                        },
-                        {
-                          "key": "menuItems.menuItem3.onClick"
-                        },
-                        {
-                          "key": "menuItems.menuItemspekwh04j3.onClick"
-                        }
-                      ],
-                      "leftColumn": 57,
-                      "dynamicBindingPathList": [],
-                      "isDisabled": false,
-                      "key": "kbnk4w7evq",
-                      "labelTextSize": "0.875rem",
-                      "rightColumn": 62,
-                      "iconName": "menu",
-                      "menuVariant": "TERTIARY",
-                      "widgetId": "wq7lld4ccw",
-                      "menuItems": {
-                        "menuItem1": {
-                          "label": "Home",
-                          "id": "menuItem1",
-                          "widgetId": "",
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "index": 0,
-                          "onClick": "{{navigateTo('Home Page', {})}}"
-                        },
-                        "menuItem2": {
-                          "label": "My orders",
-                          "id": "menuItem2",
-                          "widgetId": "",
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "index": 1,
-                          "onClick": "{{navigateTo('My orders', {})}}"
-                        },
-                        "menuItem3": {
-                          "label": "Submit new order",
-                          "id": "menuItem3",
-                          "widgetId": "",
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "index": 2,
-                          "onClick": "{{navigateTo('Submit new order', {})}}"
-                        },
-                        "menuItemspekwh04j3": {
-                          "id": "menuItemspekwh04j3",
-                          "index": 3,
-                          "label": "Admin",
-                          "widgetId": "m6t7bzqwnl",
-                          "isDisabled": false,
-                          "isVisible": true,
-                          "onClick": "{{navigateTo('Admin', {})}}"
-                        }
-                      },
-                      "isVisible": true,
-                      "label": "",
-                      "version": 1,
-                      "parentId": "4wv2ilgh5w",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "0.900rem",
-                      "menuColor": "#2E3D49",
-                      "iconAlign": "right",
-                      "placement": "START"
                     }
                   ],
                   "key": "fmvzk8n19t",

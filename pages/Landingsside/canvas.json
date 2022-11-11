@@ -876,160 +876,6 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
             },
             {
-              "boxShadow": "none",
-              "widgetName": "Container2Copy",
-              "borderColor": "transparent",
-              "isCanvas": true,
-              "dynamicPropertyPathList": [
-                {
-                  "key": "borderRadius"
-                }
-              ],
-              "displayName": "Container",
-              "iconSVG": "/static/media/icon.1977dca3.svg",
-              "topRow": 1,
-              "bottomRow": 9,
-              "parentRowSpace": 10,
-              "type": "CONTAINER_WIDGET",
-              "hideCard": false,
-              "animateLoading": true,
-              "parentColumnSpace": 18.0625,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 48,
-              "dynamicBindingPathList": [],
-              "children": [
-                {
-                  "boxShadow": "none",
-                  "widgetName": "Canvas2Copy",
-                  "displayName": "Canvas",
-                  "topRow": 0,
-                  "bottomRow": 390,
-                  "parentRowSpace": 1,
-                  "type": "CANVAS_WIDGET",
-                  "canExtend": false,
-                  "hideCard": true,
-                  "minHeight": 400,
-                  "parentColumnSpace": 1,
-                  "leftColumn": 0,
-                  "dynamicBindingPathList": [],
-                  "children": [
-                    {
-                      "isCompact": false,
-                      "boxShadow": "none",
-                      "widgetName": "MenuButton1Copy",
-                      "dynamicPropertyPathList": [],
-                      "displayName": "Menu Button",
-                      "iconSVG": "/static/media/icon.0341d17d.svg",
-                      "topRow": 1,
-                      "bottomRow": 5,
-                      "parentRowSpace": 10,
-                      "type": "MENU_BUTTON_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "parentColumnSpace": 12.01953125,
-                      "dynamicTriggerPathList": [
-                        {
-                          "key": "menuItems.menuItem1.onClick"
-                        },
-                        {
-                          "key": "menuItems.menuItem2.onClick"
-                        },
-                        {
-                          "key": "menuItems.menuItem3.onClick"
-                        },
-                        {
-                          "key": "menuItems.menuItemspekwh04j3.onClick"
-                        }
-                      ],
-                      "leftColumn": 4,
-                      "dynamicBindingPathList": [],
-                      "isDisabled": false,
-                      "key": "kbnk4w7evq",
-                      "labelTextSize": "0.875rem",
-                      "rightColumn": 60,
-                      "iconName": "menu",
-                      "menuVariant": "TERTIARY",
-                      "widgetId": "fbrcpmq15g",
-                      "menuItems": {
-                        "menuItem1": {
-                          "label": "Hjem",
-                          "id": "menuItem1",
-                          "widgetId": "",
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "index": 0,
-                          "onClick": "null"
-                        },
-                        "menuItem2": {
-                          "label": "Funnede ting",
-                          "id": "menuItem2",
-                          "widgetId": "",
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "index": 1,
-                          "onClick": "null"
-                        },
-                        "menuItem3": {
-                          "label": "Fant no",
-                          "id": "menuItem3",
-                          "widgetId": "",
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "index": 2,
-                          "onClick": "null"
-                        },
-                        "menuItemspekwh04j3": {
-                          "id": "menuItemspekwh04j3",
-                          "index": 3,
-                          "label": "Admin",
-                          "widgetId": "m6t7bzqwnl",
-                          "isDisabled": false,
-                          "isVisible": true,
-                          "onClick": "null"
-                        }
-                      },
-                      "isVisible": true,
-                      "label": "",
-                      "version": 1,
-                      "parentId": "h6px98qvy4",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "0.900rem",
-                      "menuColor": "#231f20",
-                      "iconAlign": "left",
-                      "placement": "CENTER"
-                    }
-                  ],
-                  "key": "fmvzk8n19t",
-                  "isDeprecated": false,
-                  "rightColumn": 433.5,
-                  "detachFromLayout": true,
-                  "widgetId": "h6px98qvy4",
-                  "accentColor": "null",
-                  "containerStyle": "none",
-                  "isVisible": true,
-                  "version": 1,
-                  "parentId": "0kyq3u7f7w",
-                  "renderMode": "CANVAS",
-                  "isLoading": false,
-                  "borderRadius": "null"
-                }
-              ],
-              "borderWidth": "0",
-              "key": "oos5irwe1x",
-              "backgroundColor": "#f3e8ff",
-              "isDeprecated": false,
-              "rightColumn": 61,
-              "widgetId": "0kyq3u7f7w",
-              "containerStyle": "card",
-              "isVisible": true,
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "borderRadius": "1.500rem"
-            },
-            {
               "widgetName": "Text2",
               "displayName": "Text",
               "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
@@ -1133,8 +979,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 24,
-              "bottomRow": 39,
+              "topRow": 20,
+              "bottomRow": 35,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -1305,8 +1151,8 @@
                 "parent",
                 "group"
               ],
-              "topRow": 9,
-              "bottomRow": 24,
+              "topRow": 3,
+              "bottomRow": 18,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
