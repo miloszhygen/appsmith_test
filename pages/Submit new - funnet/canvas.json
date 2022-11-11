@@ -888,7 +888,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "date_pick",
-                      "dateFormat": "LLL",
+                      "dateFormat": "D MMMM, YYYY",
                       "displayName": "DatePicker",
                       "iconSVG": "/static/media/icon.300e5ab8.svg",
                       "topRow": 79,

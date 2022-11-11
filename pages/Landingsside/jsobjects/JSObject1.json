@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Landingsside",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n get_orders: () => {\n\t\treturn(select_work_orders.data.slice(0,3).reverse())\n\t},\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Landingsside_JSObject1",
+  "deleted": false,
+  "gitSyncId": "636bcc2c8f12af63a43d7c4d_636e237c3ae7b05c62509949"
+}
