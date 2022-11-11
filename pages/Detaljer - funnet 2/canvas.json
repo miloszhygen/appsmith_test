@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1020,
+          "bottomRow": 1010,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -228,7 +228,7 @@
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3.svg",
               "topRow": 11,
-              "bottomRow": 94,
+              "bottomRow": 93,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -261,13 +261,62 @@
                   "dynamicBindingPathList": [],
                   "children": [
                     {
+                      "zoomLevel": 50,
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "widgetName": "Map1",
+                      "defaultMarkers": [
+                        {
+                          "lat": 25.122,
+                          "long": 50.132,
+                          "title": "Location1"
+                        }
+                      ],
+                      "displayName": "Map",
+                      "iconSVG": "/static/media/icon.ddde7d1b6b4d64050fde21a347260464.svg",
+                      "topRow": 42,
+                      "bottomRow": 61,
+                      "parentRowSpace": 10,
+                      "type": "MAP_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "allowZoom": true,
+                      "parentColumnSpace": 5.0341796875,
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        }
+                      ],
+                      "enablePickLocation": true,
+                      "mapCenter": {
+                        "lat": 25.122,
+                        "long": 50.132
+                      },
+                      "isClickedMarkerCentered": true,
+                      "isDisabled": false,
+                      "enableSearch": true,
+                      "key": "qwj11u387b",
+                      "isDeprecated": false,
+                      "rightColumn": 63,
+                      "widgetId": "unogh23c7x",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "g9pdsx77ic",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                    },
+                    {
                       "boxShadow": "none",
                       "widgetName": "Text2CopyCopyCopyCopy1Copy2Copy",
                       "dynamicPropertyPathList": [],
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
-                      "topRow": 62,
-                      "bottomRow": 67,
+                      "topRow": 63,
+                      "bottomRow": 68,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -275,12 +324,12 @@
                       "overflow": "NONE",
                       "fontFamily": "System Default",
                       "dynamicBindingPathList": [],
-                      "leftColumn": 34,
+                      "leftColumn": 33,
                       "truncateButtonColor": "#FFC13D",
                       "text": "7. november, 2022",
                       "key": "czyq0gtp0e",
                       "labelTextSize": "0.875rem",
-                      "rightColumn": 64,
+                      "rightColumn": 63,
                       "textAlign": "LEFT",
                       "widgetId": "6j78m59xdk",
                       "logBlackList": {
@@ -334,8 +383,8 @@
                       "dynamicPropertyPathList": [],
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
-                      "topRow": 62,
-                      "bottomRow": 67,
+                      "topRow": 63,
+                      "bottomRow": 68,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -343,12 +392,12 @@
                       "overflow": "NONE",
                       "fontFamily": "System Default",
                       "dynamicBindingPathList": [],
-                      "leftColumn": 1,
+                      "leftColumn": 0,
                       "truncateButtonColor": "#FFC13D",
                       "text": "Når ble den funnet:",
                       "key": "czyq0gtp0e",
                       "labelTextSize": "0.875rem",
-                      "rightColumn": 32,
+                      "rightColumn": 31,
                       "textAlign": "LEFT",
                       "widgetId": "9718to1ybg",
                       "logBlackList": {
@@ -1124,55 +1173,6 @@
                       "fontSize": "1rem"
                     },
                     {
-                      "zoomLevel": 50,
-                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-                      "widgetName": "Map1",
-                      "defaultMarkers": [
-                        {
-                          "lat": 25.122,
-                          "long": 50.132,
-                          "title": "Location1"
-                        }
-                      ],
-                      "displayName": "Map",
-                      "iconSVG": "/static/media/icon.ddde7d1b6b4d64050fde21a347260464.svg",
-                      "topRow": 42,
-                      "bottomRow": 61,
-                      "parentRowSpace": 10,
-                      "type": "MAP_WIDGET",
-                      "hideCard": false,
-                      "animateLoading": true,
-                      "allowZoom": true,
-                      "parentColumnSpace": 5.0341796875,
-                      "leftColumn": 1,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "borderRadius"
-                        },
-                        {
-                          "key": "boxShadow"
-                        }
-                      ],
-                      "enablePickLocation": true,
-                      "mapCenter": {
-                        "lat": 25.122,
-                        "long": 50.132
-                      },
-                      "isClickedMarkerCentered": true,
-                      "isDisabled": false,
-                      "enableSearch": true,
-                      "key": "qwj11u387b",
-                      "isDeprecated": false,
-                      "rightColumn": 63,
-                      "widgetId": "x768cfevfe",
-                      "isVisible": true,
-                      "version": 1,
-                      "parentId": "g9pdsx77ic",
-                      "renderMode": "CANVAS",
-                      "isLoading": false,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
-                    },
-                    {
                       "widgetName": "Text5",
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
@@ -1191,7 +1191,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 5.0341796875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
+                      "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -1208,7 +1208,7 @@
                       "text": "Her kan du finne den igjen:",
                       "key": "ktmmwwrxnc",
                       "isDeprecated": false,
-                      "rightColumn": 53,
+                      "rightColumn": 52,
                       "textAlign": "LEFT",
                       "widgetId": "9tj2dc5wec",
                       "isVisible": true,
@@ -1240,7 +1240,7 @@
                       "fontFamily": "System Default",
                       "parentColumnSpace": 5.0341796875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 1,
+                      "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -1254,7 +1254,7 @@
                       "text": "Jeg har gjemt den under en busk i parken. Ring meg hvis du ikke finner den.",
                       "key": "g721besbqv",
                       "isDeprecated": false,
-                      "rightColumn": 62,
+                      "rightColumn": 61,
                       "textAlign": "LEFT",
                       "widgetId": "ha81mchgom",
                       "isVisible": true,

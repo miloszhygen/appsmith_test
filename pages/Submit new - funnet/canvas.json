@@ -950,7 +950,7 @@
                       ],
                       "isDisabled": false,
                       "key": "sbkhmey23x",
-                      "isMirrored": true,
+                      "isMirrored": false,
                       "isDeprecated": false,
                       "rightColumn": 61,
                       "widgetId": "3eo4jo6q9a",
