@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Submit new - funnet",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\trandomWorkID: () => {\n    return Math.ceil(Math.random() * (9999 -  + 1)) + 10000;\n\t},\n\tsubmit_found: () => {\n\t\tconsole.log('HELLO')\n\t\t\n\t\t/*\n\t\t\t{{workid.text}},\n\t\t\t{{equipment_select.selectedOptionValue}},\n\t\t\t{{category_select.selectedOptionValue}},\n\t\t\t{{desc_input.text}},\n\t\t\t{{date_pick.formattedDate}},\n\t\t\t{{name_input.text}},\n\t\t\t{{email_input.text}}\n\t\t*/\n\n\t\t//workid.text = '1234'\n\t\t//console.log('workid',workid.text)\n\t\t//console.log('id',workid.text)\n\t\t//console.log('title',Input1.text)\n\t\t//console.log('selectedOptionValue',category_select.selectedOptionValue)\n\t\t//console.log('desc_input',desc_input.text)\n\t\t//console.log('formattedDate',date_pick.formattedDate)\n\t\t//console.log('hvor finne',Input2.text)\n\t\t//console.log('Kart',Map1.center)\n\t\t//console.log('name_input',name_input.text)\n\t\t//console.log('email_input',email_input.text)\n\t\t//console.log('selectedOptionValue',equipment_select.selectedOptionValue)\n\t\tconsole.log('IMAGE', ImageUrl.text)\n\t\tinsert_work_orders.run()\n\t\tnavigateTo(\"Kvitteringsside\")\n\t},\n\tupload_image:async () => {\n\t\tconsole.log('Image taken')\n\t\t// console.log(Camera1.imageDataURL)\n\t\tconst image = await Cloudinary_API.run();\n\t\tconsole.log(image)\n\t\t// appsmith.store = 'HELLO'\n\t\t// console.log(ImageUrl.text)\n\n\t\t\tstoreValue('imageUrl', image?.url)\n\t\t\n\t\t\n\t\t// ---> Some how add image url to a value on the page? Then when aving use that value to update completed row in \n\t\treturn ''\n\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Submit new - funnet_JSObject1",
+  "deleted": false,
+  "gitSyncId": "636bcc2c8f12af63a43d7c4d_636bce2eb7d12f577aa59954"
+}

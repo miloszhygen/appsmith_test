@@ -1,35 +1,35 @@
 {
   "pages": [
     {
-      "id": "Submit new order",
+      "id": "Submit new - funnet",
       "isDefault": false
     },
     {
-      "id": "Home Page",
+      "id": "My orders - funnet",
       "isDefault": false
     },
     {
-      "id": "Admin",
-      "isDefault": false
-    },
-    {
-      "id": "My orders",
-      "isDefault": false
-    },
-    {
-      "id": "Page1",
+      "id": "Landingsside",
       "isDefault": true
-    },
-    {
-      "id": "Page2",
-      "isDefault": false
     },
     {
       "id": "Mista - skjema",
       "isDefault": false
     },
     {
-      "id": "Liste over funnet",
+      "id": "Liste over mistet - mockup",
+      "isDefault": false
+    },
+    {
+      "id": "Detaljer - funnet 1",
+      "isDefault": false
+    },
+    {
+      "id": "Detaljer - funnet 2",
+      "isDefault": false
+    },
+    {
+      "id": "Kvitteringsside",
       "isDefault": false
     }
   ],
@@ -42,7 +42,7 @@
     "type": "MOBILE"
   },
   "publishedAppLayout": {
-    "type": "FLUID"
+    "type": "MOBILE"
   },
   "evaluationVersion": 2,
   "applicationVersion": 2,

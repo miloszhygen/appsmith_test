@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Detaljer - funnet 1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tsearch_my_orders: () => {\n\t\treturn(select_work_orders.data.filter(user => user.agent==(\"Jilli Frake\")))\n\t},\n\tfilter_orders: () => {\n\t\t// Just a test\n\t\treturn [{hello:'world'},{hello:'world2'},{hello:'world3'}]\n\t},\n\tfiler_orders_by_today: () => {\n\t\t/*\n\t\t\t{\n\t\t\t\t\t\"work_id\": 4037,\n\t\t\t\t\t\"equipment\": \"Phone\",\n\t\t\t\t\t\"category\": \"Preventive Maintenance\",\n\t\t\t\t\t\"description\": \"ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies\",\n\t\t\t\t\t\"request_date\": \"2022-05-10\",\n\t\t\t\t\t\"agent\": \"Rianon Iamittii\",\n\t\t\t\t\t\"maintenance_notes\": null,\n\t\t\t\t\t\"completed\": \"No\",\n\t\t\t\t\t\"hours\": 5,\n\t\t\t\t\t\"customer_name\": \"Micah Agnew\",\n\t\t\t\t\t\"customer_email\": \"magnew4@diigo.com\",\n\t\t\t\t\t\"total_cost\": null,\n\t\t\t\t\t\"mat_cost\": null\n\t\t\t\t},\n\t\t*/\n\t\t\n\t\t//Input1.text = 'Overwrite?'\n\t\tconsole.log(Input1.text)\n\t\t//console.log('LENGTH',select_work_orders.data.length)\n\t\tconst newID = 10000+select_work_orders.data.length +1;\n\t\t//console.log({newID})\n\t\treturn (select_work_orders.data.filter(r => r.work_id > 10000))\n\t},\n\tupdate_data: () => {\n\t\tconsole.log('HEWlo')\n\t\tconsole.log(Input1.text)\n\t\tInput1.text = 'Test from js'\n\t\tselect_work_orders.run();\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Detaljer - funnet 1_JSObject1",
+  "deleted": false,
+  "gitSyncId": "636bcc2c8f12af63a43d7c4d_636cf35e03193515321c8d37"
+}

@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Liste over mistet - mockup",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tsearch_my_orders: () => {\n\t\treturn(select_work_orders.data.filter(user => user.agent==(\"Jilli Frake\")))\n\t},\n\tfilter_orders:()=>{\n\t\t// Just a test\n\t\treturn [{hello:'world'},{hello:'world2'},{hello:'world3'}]\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Liste over mistet - mockup_JSObject1",
+  "deleted": false,
+  "gitSyncId": "636bcc2c8f12af63a43d7c4d_636cda0e03193515321c8a3f"
+}
