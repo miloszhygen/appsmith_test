@@ -3032,7 +3032,7 @@
                                       "widgetName": "Text1Copy",
                                       "displayName": "Text",
                                       "iconSVG": "/static/media/icon.97c59b52.svg",
-                                      "topRow": 13,
+                                      "topRow": 9,
                                       "bottomRow": 17,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
@@ -3042,7 +3042,7 @@
                                       "parentColumnSpace": 5.6962890625,
                                       "dynamicTriggerPathList": [],
                                       "fontFamily": "System Default",
-                                      "leftColumn": 8,
+                                      "leftColumn": 10,
                                       "dynamicBindingPathList": [
                                         {
                                           "key": "text"
@@ -3112,7 +3112,7 @@
                                       "parentColumnSpace": 5.6962890625,
                                       "dynamicTriggerPathList": [],
                                       "fontFamily": "System Default",
-                                      "leftColumn": 8,
+                                      "leftColumn": 9,
                                       "dynamicBindingPathList": [
                                         {
                                           "key": "text"
@@ -3173,8 +3173,8 @@
                                       "dynamicPropertyPathList": [],
                                       "displayName": "Text",
                                       "iconSVG": "/static/media/icon.97c59b52.svg",
-                                      "topRow": 13,
-                                      "bottomRow": 17,
+                                      "topRow": 11,
+                                      "bottomRow": 15,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
                                       "animateLoading": true,
@@ -3187,7 +3187,7 @@
                                       "text": "Hvor:",
                                       "key": "czyq0gtp0e",
                                       "labelTextSize": "0.875rem",
-                                      "rightColumn": 8,
+                                      "rightColumn": 10,
                                       "textAlign": "LEFT",
                                       "widgetId": "zqon2j19mu",
                                       "logBlackList": {
@@ -3255,7 +3255,7 @@
                                       "text": "Når:",
                                       "key": "czyq0gtp0e",
                                       "labelTextSize": "0.875rem",
-                                      "rightColumn": 7,
+                                      "rightColumn": 9,
                                       "textAlign": "LEFT",
                                       "widgetId": "zl6tarqwcq",
                                       "logBlackList": {
@@ -3323,7 +3323,7 @@
                                       "text": "Funnet:",
                                       "key": "czyq0gtp0e",
                                       "labelTextSize": "0.875rem",
-                                      "rightColumn": 12,
+                                      "rightColumn": 33,
                                       "textAlign": "LEFT",
                                       "widgetId": "piqofw7yxi",
                                       "logBlackList": {
@@ -3377,7 +3377,7 @@
                                       "displayName": "Text",
                                       "iconSVG": "/static/media/icon.97c59b52.svg",
                                       "topRow": 4,
-                                      "bottomRow": 13,
+                                      "bottomRow": 9,
                                       "parentRowSpace": 10,
                                       "type": "TEXT_WIDGET",
                                       "hideCard": false,
@@ -4228,7 +4228,7 @@
                               "parentColumnSpace": 5.6962890625,
                               "dynamicTriggerPathList": [],
                               "fontFamily": "System Default",
-                              "leftColumn": 11,
+                              "leftColumn": 25,
                               "dynamicBindingPathList": [
                                 {
                                   "key": "text"
@@ -4579,7 +4579,7 @@
                               "text": "Hva:",
                               "key": "czyq0gtp0e",
                               "labelTextSize": "0.875rem",
-                              "rightColumn": 10,
+                              "rightColumn": 25,
                               "textAlign": "LEFT",
                               "widgetId": "rjo90zeu79",
                               "logBlackList": {
