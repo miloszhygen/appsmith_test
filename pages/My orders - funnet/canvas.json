@@ -132,7 +132,7 @@
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 400,
+                  "bottomRow": 390,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -163,7 +163,7 @@
                       "parentColumnSpace": 17.9375,
                       "dynamicTriggerPathList": [],
                       "imageShape": "RECTANGLE",
-                      "leftColumn": 29,
+                      "leftColumn": 38,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -173,7 +173,7 @@
                       "key": "0sb3oftbe3",
                       "image": "",
                       "isDeprecated": false,
-                      "rightColumn": 47,
+                      "rightColumn": 56,
                       "objectFit": "contain",
                       "widgetId": "4yb0xv15ja",
                       "isVisible": true,
@@ -200,7 +200,7 @@
                       "parentColumnSpace": 17.9375,
                       "dynamicTriggerPathList": [],
                       "imageShape": "RECTANGLE",
-                      "leftColumn": 6,
+                      "leftColumn": 8,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -210,7 +210,7 @@
                       "key": "0sb3oftbe3",
                       "image": "https://res.cloudinary.com/dfczkfjlp/image/upload/v1668078275/mista_esyfre.png\n",
                       "isDeprecated": false,
-                      "rightColumn": 24,
+                      "rightColumn": 26,
                       "objectFit": "contain",
                       "widgetId": "ipqytchroy",
                       "isVisible": true,
@@ -656,7 +656,7 @@
                       "displayName": "Text",
                       "iconSVG": "/static/media/icon.97c59b52.svg",
                       "topRow": 7,
-                      "bottomRow": 15,
+                      "bottomRow": 24,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,

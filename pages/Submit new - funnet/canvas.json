@@ -37,8 +37,8 @@
               ],
               "displayName": "Container",
               "iconSVG": "/static/media/icon.1977dca3.svg",
-              "topRow": 0,
-              "bottomRow": 11,
+              "topRow": 1,
+              "bottomRow": 12,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -859,13 +859,10 @@
                       "leftColumn": 1,
                       "dynamicBindingPathList": [
                         {
-                          "key": "options"
-                        },
-                        {
                           "key": "accentColor"
                         }
                       ],
-                      "options": "[\n  {\n    \"label\": {{select_category.data[0].category}},\n    \"value\": {{select_category.data[0].category}}\n  },\n  {\n    \"label\": {{select_category.data[1].category}},\n    \"value\": {{select_category.data[1].category}}\n  },{\n\t\"label\":\n\t{{select_category.data[2].category}},\n    \"value\": {{select_category.data[2].category}}\n  },\n  {\n    \"label\": {{select_category.data[3].category}},\n    \"value\": {{select_category.data[3].category}}\n  }\n]",
+                      "options": "[\n  {\n    \"label\": \"Klær og tilbehør\",\n    \"value\": \"Klær og tilbehør\"\n  },\n  {\n    \"label\": \"Oppbevaring\",\n    \"value\": \"Oppbevaring\"\n  },\n  {\n    \"label\": \"Leker og barn\",\n    \"value\": \"Leker og barn\"\n  },\n  {\n    \"label\": \"Transport\",\n    \"value\": \"Transport\"\n  }\n]",
                       "placeholderText": "Velg kategori",
                       "isDisabled": false,
                       "key": "znvppzc3ip",
@@ -1458,18 +1455,7 @@
             }
           ]
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Submit new - funnet_select_category",
-              "name": "select_category",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Submit new - funnet",
