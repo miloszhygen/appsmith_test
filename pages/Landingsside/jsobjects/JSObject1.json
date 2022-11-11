@@ -6,7 +6,7 @@
     "pluginType": "JS",
     "actions": [],
     "archivedActions": [],
-    "body": "export default {\n get_orders: () => {\n\t\treturn(select_work_orders.data.slice(0,3).reverse())\n\t},\n}",
+    "body": "export default {\n get_orders: () => {\n\t\t//return(select_work_orders.data.reverse().slice(0,3))\n\t return []\n\t},\n}",
     "variables": [],
     "userPermissions": []
   },

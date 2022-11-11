@@ -19,10 +19,10 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  console.log('HEWlo');\n  console.log(Input1.text);\n  Input1.text = 'Test from js';\n  select_work_orders.run();\n}",
+      "body": "() => {\n  select_work_orders.run();\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
-      "isAsync": false
+      "isAsync": true
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  console.log('HEWlo');\n  console.log(Input1.text);\n  Input1.text = 'Test from js';\n  select_work_orders.run();\n}"
+      "() => {\n  select_work_orders.run();\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

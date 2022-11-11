@@ -621,7 +621,7 @@
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 4.49951171875,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 7,
+                      "leftColumn": 4,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
@@ -638,7 +638,7 @@
                       "text": "Sist sett i Oslo sentrum",
                       "key": "ecpon6d453",
                       "isDeprecated": false,
-                      "rightColumn": 56,
+                      "rightColumn": 61,
                       "textAlign": "LEFT",
                       "widgetId": "uous82zu6k",
                       "isVisible": true,

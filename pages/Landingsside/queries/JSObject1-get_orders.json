@@ -19,7 +19,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n  return select_work_orders.data.slice(0, 3).reverse();\n}",
+      "body": "() => {\n  return [];\n}",
       "selfReferencingDataPaths": [],
       "jsArguments": [],
       "isAsync": false
@@ -34,7 +34,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n  return select_work_orders.data.slice(0, 3).reverse();\n}"
+      "() => {\n  return [];\n}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO work_orders\n\t(work_id,equipment,category,description,request_date,agent,customer_name,customer_email,completed) values\n\t(\n\t\t{{workid.text}},\n\t\t{{Input1.text}},\n\t\t{{category_select.selectedOptionValue}},\n\t\t{{desc_input.text}},\n\t\t{{date_pick.formattedDate}},\n\t\t{{Input2.text}},\n\t\t{{name_input.text}},\n\t\t{{email_input.text}},\n\t\t{{ImageUrl.text}}\n\t);",
+      "body": "INSERT INTO work_orders (work_id,equipment,category,description,request_date,agent,customer_name,customer_email,completed) values\n\t(\n\t\t{{workid.text}},\n\t\t{{Input1.text}},\n\t\t{{category_select.selectedOptionValue}},\n\t\t{{desc_input.text}},\n\t\t{{date_pick.formattedDate}},\n\t\t{{Input2.text}},\n\t\t{{name_input.text}},\n\t\t{{email_input.text}},\n\t\t{{ImageUrl.text}}\n\t);",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
