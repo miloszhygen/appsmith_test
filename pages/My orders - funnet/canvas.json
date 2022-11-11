@@ -3053,7 +3053,7 @@
                                       "text": "{{currentItem.agent}}",
                                       "key": "sf3h3c9rxg",
                                       "labelTextSize": "0.875rem",
-                                      "rightColumn": 33,
+                                      "rightColumn": 34,
                                       "textAlign": "LEFT",
                                       "widgetId": "vm5cu39yr5",
                                       "logBlackList": {
@@ -3323,7 +3323,7 @@
                                       "text": "Funnet:",
                                       "key": "czyq0gtp0e",
                                       "labelTextSize": "0.875rem",
-                                      "rightColumn": 10,
+                                      "rightColumn": 12,
                                       "textAlign": "LEFT",
                                       "widgetId": "piqofw7yxi",
                                       "logBlackList": {
@@ -3455,7 +3455,7 @@
                                       "parentColumnSpace": 5.98681640625,
                                       "dynamicTriggerPathList": [],
                                       "imageShape": "RECTANGLE",
-                                      "leftColumn": 33,
+                                      "leftColumn": 34,
                                       "dynamicBindingPathList": [
                                         {
                                           "key": "borderRadius"

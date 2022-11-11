@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "DELETE FROM work_orders WHERE work_id=12699;",
+      "body": "DELETE FROM work_orders WHERE work_id=17930;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
